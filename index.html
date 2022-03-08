@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/fav.png">
+     <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body class="font-400 text-black tracking-tight overflow-x-hidden bg-white opacity-0">
+    <header>
+        <div class="container">
+            <div class="flex justify-between items-center py-6 sm:py-9">
+                <a href="index.html" class="text-26 tracking-tight font-900">Gursewak S<span class="text-red">.</span></a>
+                <div id="toggleMenu" class="ml-auto p-2.5 mr-2.5 lg:hidden cursor-pointer relative top-[-4px]">
+                    <div class="flex flex-col w-4 ">
+                        <span class="inline-block w-100 h-0.5 bg-black"></span>
+                        <span class="inline-block my-[3px] w-100 h-0.5 bg-black"></span>
+                        <span class="inline-block w-100 h-0.5 bg-black"></span>
+                    </div>
+                </div>
+                <div id="navBar" class="absolute z-20 lg:static  w-full lg:w-auto inset-0 duration-300  lg:opacity-100 overflow-hidden  block lg:visible lg:h-auto translate-y-[90px] lg:translate-y-0 menu-close">
+                    <ul class="font-700 flex flex-col lg:flex-row bg-white shadow-menu pb-7 lg:p-0">
+                        <li>
+                            <a class="lg:p-2.5 lg:mr-5 lg:inline-block py-5 mx-auto block w-full max-w-[85%] duration-200 hover:text-gray-light" href="#services">Services</a>
+                        </li>
+                        <li>
+                            <a class="lg:p-2.5 lg:mr-5 lg:inline-block py-5 mx-auto block w-full max-w-[85%] duration-200 hover:text-gray-light" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li>
+                            <a class="lg:p-2.5 lg:mr-5 lg:inline-block py-5 mx-auto block w-full max-w-[85%] duration-200 hover:text-gray-light" href="#testimonials">Testimonials</a>
+                        </li>
+                        <li>
+                            <a class="lg:p-2.5 lg:mr-5 lg:inline-block py-5 mx-auto block w-full max-w-[85%] duration-200 hover:text-gray-light" href="contact.html" target="_blank">Contact</a>
+                        </li>
+                        <li>
+                            <a class="lg:p-2.5 lg:mr-5 lg:inline-block py-5 mx-auto block w-full max-w-[85%] duration-200 hover:text-gray-light"  href="assets/images/resume/resume.pdf" target="_blank">Resume</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-[40px] sm:py-[60px] lg:py-[80px]">
+        <div class="container">
+            <div class="flex justify-center items-center flex-col lg:flex-row">
+                <div class="w-full md:w-[85%] lg:w-[60%]">
+                    <h1 class="animate-up-x heading text-[40px] sm:text-[50px] md:text-[67px] xl:text-[75px]"><span class="block clip-text">I create websites</span>with clean and minimal code.</h1>
+                    <p class="animate-up-x text-[19px] md:text-[22px] text-gray-light leading-[150%] mt-[25px] mb-[40px] font-700 max-w-[590px]">Hi! I’m Gursewak, front-end developer (HTML, CSS, JS) expertise in building small and medium web apps, custom animations, and coding interactive layouts. </p>
+                    <div class="animate-up-x flex flex-col sm:flex-row items-start sm:items-center">
+                        <a href="contact.html" class="relative inline-block">
+                            <div class="relative z-10 bg-black text-white text-[18px] leading-[100%] font-900 px-[30px] py-[20px] transform hover:translate-x-[7px] hover:translate-y-[7px] duration-200">Get in Touch</div>
+                            <div class="absolute  inset-0 px-[30px] py-[20px] bg-gradient-to-r from-[#b16cea] via-red to-[#ffa84b] transform translate-x-[7px] translate-y-[7px]"></div>
+                        </a>
+                        <a class="flex mt-[30px] sm:mt-[7px] sm:ml-[40px] group  items-center text-[18px] font-900"  href="assets/images/resume/resume.pdf" download>Download CV <img class="ml-[10px] transform duration-200 group-hover:translate-x-[7px]" src="./assets/images/arrow.svg" alt="arrow"/></a>
+                    </div>
+
+                </div>
+                <div class="mt-[50px] lg:mt-0 w-[90%] sm:w-[60%] lg:w-[40%]">
+                    <img class="animate-zoomout" src="./assets/images/me.png" alt="image" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Services Section -->
+    <section id="services" class="py-[40px] sm:py-[60px] lg:py-[80px] ">
+        <div class="container">
+            <div class="text-center">
+                <div class="animate-up-y">
+                    <h6 class="inline-block clip-text text-[22px] font-900 uppercase tracking-wide4 ">Services</h6>
+                </div>
+                <h3 class="animate-up-y font-900 mt-[20px] mb-[60px] sm:mb-[90px] lg:mb-[110px] text-[36px] sm:text-[40px] md:text-[54px] leading-[110%] max-w-[810px] mx-auto">The skills and tools I use to bring your products to life.</h3>
+            </div>
+            <div class="grid gap-x-[90px] gap-y-[50px] sm:gap-y-[70px] lg:gap-y-0 grid-cols-1 lg:grid-cols-3 justify-items-center lg:justify-items-start">
+                <div class="w-full md:max-w-[85%] lg:max-w-none">
+                    <div class="animate-up-y flex justify-center items-center w-[70px] h-[70px]">
+                        <img src="assets/images/s1.svg" alt="icon" />
+                    </div>
+                    <h5 class="animate-up-y mt-[20px] sm:mt-[42px] mb-[15px] md:mb-[20px] font-900 text-[19px] sm:text-[24px] leading-[110%]">What web languages I use</h5>
+                    <p class="animate-up-y text-[16px] font-500 mb-[25px] leading-[28px] text-gray-light max-w-none lg:max-w-[85%]">Web languages I use on daily basis. Here's all the services I provide:</p>
+                    <ul class="list-disc pl-[13px]">
+                        <li class="animate-up-y mb-[10px] font-900 text-[16px] leading-[28px]">HTML5/CSS3</li>
+                        <li class="animate-up-y mb-[10px] font-900 text-[16px] leading-[28px]">JavaScript (ES6) jQuery</li>
+                        <li class="animate-up-y mb-[10px] font-900 text-[16px] leading-[28px]">ReactJs/VueJs</li>
+                    </ul>
+                </div>
+                <div class="w-full md:max-w-[85%] lg:max-w-none">
+                    <div class="animate-up-y flex justify-center items-center w-[70px] h-[70px]">
+                        <img src="assets/images/s2.svg" alt="icon" />
+                    </div>
+                    <h5 class="animate-up-y mt-[20px] sm:mt-[42px] mb-[15px] md:mb-[20px] font-900 text-[19px] sm:text-[24px] leading-[110%]">What frameworks I use</h5>
+                    <p class="animate-up-y text-[16px] font-500 mb-[25px] leading-[28px] text-gray-light max-w-none lg:max-w-[85%]">Frameworks I use on daily basis. Here's all the services I provide:</p>
+                    <ul class=" list-disc pl-[13px]">
+                        <li class="animate-up-y  mb-[10px] font-900 text-[16px] leading-[28px]">Bootstrap (v4,v5)</li>
+                        <li class="animate-up-y  mb-[10px] font-900 text-[16px] leading-[28px]">Tailwind CSS/Meterialize CSS</li>
+                        <li class="animate-up-y  mb-[10px] font-900 text-[16px] leading-[28px]">Aminations (CSS3, SVG, GSAP)</li>
+                    </ul>
+                </div>
+                <div class="w-full md:max-w-[85%] lg:max-w-none">
+                    <div class="animate-up-y flex justify-center items-center w-[70px] h-[70px]">
+                        <img src="assets/images/s3.svg" alt="icon" />
+                    </div>
+                    <h5 class="animate-up-y mt-[20px] sm:mt-[42px] mb-[15px] md:mb-[20px] font-900 text-[19px] sm:text-[24px] leading-[110%]">What softwares I use</h5>
+                    <p class="animate-up-y text-[16px] font-500 mb-[25px] leading-[28px] text-gray-light max-w-none lg:max-w-[85%]">Softwares I use on daily basis. Here's all the services I provide:</p>
+                    <ul class="list-disc pl-[13px]">
+                        <li class="animate-up-y  mb-[10px] font-900 text-[16px] leading-[28px]">Figma/Sketch/XD/PSD/Zeplin</li>
+                        <li class="animate-up-y  mb-[10px] font-900 text-[16px] leading-[28px]">VS Code/Wappler</li>
+                        <li class="animate-up-y  mb-[10px] font-900 text-[16px] leading-[28px]">Git + Github</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-[40px] pb-[80px] sm:py-[60px] sm:pb-[80px] lg:py-[80px] relative overflow-hidden">
+        <div class="container">
+            <div class="flex items-start lg:items-center justify-between flex-col lg:flex-row">
+                <div class="text-left">
+                    <div class="animate-up-y">
+                        <h6 class="inline-block clip-text text-[22px] font-900 uppercase tracking-wide4 ">Projects</h6>
+                    </div>
+                    <h3 class="animate-up-y font-900 mt-[20px] text-[36px] sm:text-[40px] md:text-[54px] leading-[110%] mb-[30px] lg:mb-0">I bring results. <br/> My clients are proof.</h3>
+                </div>
+                <a href="portfolio.html" class="animate-up-y relative inline-block">
+                    <div class="relative z-10 bg-black text-white text-[18px] leading-[100%] font-900 px-[30px] py-[20px] transform hover:translate-x-[7px] hover:translate-y-[7px] duration-200">View All Projects</div>
+                    <div class="absolute  inset-0 px-[30px] py-[20px] bg-gradient-to-r from-[#b16cea] via-red to-[#ffa84b] transform translate-x-[7px] translate-y-[7px]"></div>
+                </a>
+            </div>
+
+            <div id="portfolioSlider" class="mt-[65px] relative">
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide w-full sm:w-3/5 lg:w-[37%] mr-[24px]">
+                        <a class="flex flex-col group" href="details_tamba.html">
+                            <div class="h-0 pb-[75%] bg-gray-100 w-full overflow-hidden">
+                                <img class="object-cover w-full h-auto transition-transform duration-300 group-hover:scale-105" src="assets/images/portfolio/tamba.png" alt="image">
+                            </div>
+                            <div class="bg-white p-[32px]">
+                                <div class="block">
+                                    <h6 class="inline-block clip-text font-700 text-[14px] tracking-wide4 leading-[100%] uppercase">Bootstrap <span class="lowercase">v</span>5</h6>
+                                </div>
+                                <h5 class="text-[24px] font-900 leading-[110%] mt-[15px] mb-[20px] duration-200 group-hover:text-gray-light">Tamba29</h5>
+                                <div class="flex items-center text-[18px] duration-200 group-hover:text-gray-light">View Project
+                                    <img class="ml-[10px]" src="./assets/images/arrow.svg" alt="arrow"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide w-full sm:w-3/5 lg:w-[37%] mr-[24px]">
+                        <a class="flex flex-col group" href="details_socpoc.html">
+                            <div class="h-0 pb-[75%] bg-gray-100 w-full overflow-hidden">
+                                <img class="object-cover w-full h-auto transition-transform duration-300 group-hover:scale-105" src="assets/images/portfolio/socpoc.png" alt="image">
+                            </div>
+                            <div class="bg-white p-[32px]">
+                                <div class="block">
+                                    <h6 class="inline-block clip-text font-700 text-[14px] tracking-wide4 leading-[100%] uppercase">Bootstrap <span class="lowercase">v</span>4</h6>
+                                </div>
+                                <h5 class="text-[24px] font-900 leading-[110%] mt-[15px] mb-[20px] duration-200 group-hover:text-gray-light">Socpoc</h5>
+                                <div class="flex items-center text-[18px] duration-200 group-hover:text-gray-light">View Project
+                                    <img class="ml-[10px]" src="./assets/images/arrow.svg" alt="arrow"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide w-full sm:w-3/5 lg:w-[37%] mr-[24px]">
+                        <a class="flex flex-col group" href="details_yorunoyo.html">
+                            <div class="h-0 pb-[75%] bg-gray-100 w-full overflow-hidden">
+                                <img class="object-cover w-full h-auto transition-transform duration-300 group-hover:scale-105" src="assets/images/portfolio/yorunoyo.png" alt="image"/>
+                            </div>
+                            <div class="bg-white p-[32px]">
+                                <div class="block">
+                                    <h6 class="inline-block clip-text font-700 text-[14px] tracking-wide4 leading-[100%] uppercase">Bootstrap <span class="lowercase">v</span>5</h6>
+                                </div>
+                                <h5 class="text-[24px] font-900 leading-[110%] mt-[15px] mb-[20px] duration-200 group-hover:text-gray-light">Yorunoyo</h5>
+                                <div class="flex items-center text-[18px] duration-200 group-hover:text-gray-light">View Project
+                                    <img class="ml-[10px]" src="./assets/images/arrow.svg" alt="arrow"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide w-full sm:w-3/5 lg:w-[37%] mr-[24px]">
+                        <a class="flex flex-col group" href="details_cashngo.html">
+                            <div class="h-0 pb-[75%] bg-gray-100 w-full overflow-hidden">
+                                <img class="object-cover w-full h-auto transition-transform duration-300 group-hover:scale-105" src="assets/images/portfolio/cashngo.png" alt="image">
+                            </div>
+                            <div class="bg-white p-[32px]">
+                                <div class="block">
+                                    <h6 class="inline-block clip-text font-700 text-[14px] tracking-wide4 leading-[100%] uppercase">Bootstrap <span class="lowercase">v</span>5</h6>
+                                </div>
+                                <h5 class="text-[24px] font-900 leading-[110%] mt-[15px] mb-[20px] duration-200 group-hover:text-gray-light">CashnoGo</h5>
+                                <div class="flex items-center text-[18px] duration-200 group-hover:text-gray-light">View Project
+                                    <img class="ml-[10px]" src="./assets/images/arrow.svg" alt="arrow"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide w-full sm:w-3/5 lg:w-[37%] mr-[24px]">
+                        <a class="flex flex-col group" href="details_loan_application.html">
+                            <div class="h-0 pb-[75%] bg-gray-100 w-full overflow-hidden">
+                                <img class="object-cover w-full h-auto transition-transform duration-300 group-hover:scale-105" src="assets/images/portfolio/animation.png" alt="image">
+                            </div>
+                            <div class="bg-white p-[32px]">
+                                <div class="block">
+                                    <h6 class="inline-block clip-text font-700 text-[14px] tracking-wide4 leading-[100%] uppercase">Animation</h6>
+                                </div>
+                                <h5 class="text-[24px] font-900 leading-[110%] mt-[15px] mb-[20px] duration-200 group-hover:text-gray-light">Loan Application</h5>
+                                <div class="flex items-center text-[18px] duration-200 group-hover:text-gray-light">View Project
+                                    <img class="ml-[10px]" src="./assets/images/arrow.svg" alt="arrow"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide w-full sm:w-3/5 lg:w-[37%] mr-[24px]">
+                        <a class="flex flex-col group" href="details_shinetsu.html">
+                            <div class="h-0 pb-[75%] bg-gray-100 w-full overflow-hidden">
+                                <img class="object-cover w-full h-auto transition-transform duration-300 group-hover:scale-105" src="assets/images/portfolio/shinetsu.png" alt="image">
+                            </div>
+                            <div class="bg-white p-[32px]">
+                                <div class="block">
+                                    <h6 class="inline-block clip-text font-700 text-[14px] tracking-wide4 leading-[100%] uppercase">Bootstrap <span class="lowercase">v</span>5</h6>
+                                </div>
+                                <h5 class="text-[24px] font-900 leading-[110%] mt-[15px] mb-[20px] duration-200 group-hover:text-gray-light">Shinetsu</h5>
+                                <div class="flex items-center text-[18px] duration-200 group-hover:text-gray-light">View Project
+                                    <img class="ml-[10px]" src="./assets/images/arrow.svg" alt="arrow"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide w-full sm:w-3/5 lg:w-[37%] mr-[24px]">
+                        <a class="flex flex-col group" href="details_fantage_village.html">
+                            <div class="h-0 pb-[75%] bg-gray-100 w-full overflow-hidden">
+                                <img class="object-cover w-full h-auto transition-transform duration-300 group-hover:scale-105" src="assets/images/portfolio/fantage-village.png" alt="image">
+                            </div>
+                            <div class="bg-white p-[32px]">
+                                <div class="block">
+                                    <h6 class="inline-block clip-text font-700 text-[14px] tracking-wide4 leading-[100%] uppercase">HTML5/CSS3</h6>
+                                </div>
+                                <h5 class="text-[24px] font-900 leading-[110%] mt-[15px] mb-[20px] duration-200 group-hover:text-gray-light">Fantage Village</h5>
+                                <div class="flex items-center text-[18px] duration-200 group-hover:text-gray-light">View Project
+                                    <img class="ml-[10px]" src="./assets/images/arrow.svg" alt="arrow"></div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="swiper-slide w-full sm:w-3/5 lg:w-[37%] mr-[24px]">
+                        <a class="flex flex-col group" href="details_companies_email.html">
+                            <div class="h-0 pb-[75%] bg-gray-100 w-full overflow-hidden">
+                                <img class="object-cover w-full h-auto transition-transform duration-300 group-hover:scale-105" src="assets/images/portfolio/companies-facts-email.png" alt="image">
+                            </div>
+                            <div class="bg-white p-[32px]">
+                                <div class="block">
+                                    <h6 class="inline-block clip-text font-700 text-[14px] tracking-wide4 leading-[100%] uppercase">Email Template</h6>
+                                </div>
+                                <h5 class="text-[24px] font-900 leading-[110%] mt-[15px] mb-[20px] duration-200 group-hover:text-gray-light">CompaniesFacts</h5>
+                                <div class="flex items-center text-[18px] duration-200 group-hover:text-gray-light">View Project
+                                    <img class="ml-[10px]" src="./assets/images/arrow.svg" alt="arrow"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev left-auto w-[54px] h-[54px] bg-white text-white top-auto right-[74px] bottom-[-80px] flex items-center justify-center after:hidden">
+                    <img src="assets/images/left_arrow.svg" alt="left" />
+                </div>
+                <div class="swiper-button-next w-[54px] h-[54px] bg-white text-white top-auto bottom-[-80px] flex items-center justify-center after:hidden">
+                    <img src="assets/images/right_arrow.svg" alt="right" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="mt-[-258px] mb-[40px] sm:mb-[60px] lg:mb-[80px] pt-[220px] bg-black">
+        <div class="pt-[100px] pb-[60px] sm:pb-[100px]">
+            <div class="container">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-[50px] justify-items-center lg:justify-items-start">
+                    <div class="w-full md:max-w-[85%] lg:max-w-none">
+                        <h3 class="animate-up-y text-[30px] md:text-[36px] leading-[100%] font-900 text-white mb-[50px] md:mb-[80px]">📚 &nbsp; Education</h3>
+                        <a href="http://bbsbec.edu.in/" target="_blank" class="animate-up-y relative mb-[35px] pb-[40px] flex flex-col sm:flex-row sm:items-end justify-between group">
+                            <div>
+                                <h5 class="mb-[8px] font-700 text-[21px] md:text-[24px] text-white leading-[110%]">BBSBEC Collage</h5>
+                                <p class="text-[16px] leading-[130%] font-500 text-gray-white">BTech (Information Technology)</p>
+                            </div>
+                            <div class="text-[16px] leading-[130%] mr-0 sm:mr-[60px] font-500 sm:ml-[20px] mt-[30px] sm:mt-0 text-gray-white">• 2008-2012</div>
+                            <div class="absolute h-[1px] bg-gray-extraWhite w-full bottom-0 overflow-hidden">
+                                <div class="absoulte w-full h-full bg-white duration-500 translate-x-[-110%] group-hover:translate-x-[0]"></div>
+                            </div>
+                            <div class="absolute w-[25px] h-[25px] right-0 top-[0] duration-200 group-hover:translate-x-[5px] group-hover:translate-y-[-5px]">
+                                <img src="assets/images/link.svg" alt="icon" />
+                            </div>
+                        </a>
+                        <a href="https://navodaya.gov.in/nvs/nvs-school/Sangrur/en/about_us/About-JNV/" target="_blank" class="animate-up-y relative mb-[35px] pb-[40px] flex flex-col sm:flex-row sm:items-end justify-between group">
+                            <div>
+                                <h5 class="mb-[8px] font-700 text-[21px] md:text-[24px] text-white leading-[110%]">JNV Longowal</h5>
+                                <p class="text-[16px] leading-[130%] font-500 text-gray-white">Higher secondary (CBSE)</p>
+                            </div>
+                            <div class="text-[16px] leading-[130%] mr-0 sm:mr-[60px] font-500 sm:ml-[20px] mt-[30px] sm:mt-0 text-gray-white">• 2007-2008</div>
+                            <div class="absolute h-[1px] bg-gray-extraWhite w-full bottom-0 overflow-hidden">
+                                <div class="absoulte w-full h-full bg-white duration-500 translate-x-[-110%] group-hover:translate-x-[0]"></div>
+                            </div>
+                            <div class="absolute w-[25px] h-[25px] right-0 top-[0] duration-200 group-hover:translate-x-[5px] group-hover:translate-y-[-5px]">
+                                <img src="assets/images/link.svg" alt="icon" />
+                            </div>
+                        </a>
+                        <a  href="https://navodaya.gov.in/nvs/nvs-school/Sangrur/en/about_us/About-JNV/" target="_blank" class="animate-up-y relative mb-[35px] pb-[40px] flex flex-col sm:flex-row sm:items-end justify-between group">
+                            <div>
+                                <h5 class="mb-[8px] font-700 text-[21px] md:text-[24px] text-white leading-[110%]">JNV Longowal</h5>
+                                <p class="text-[16px] leading-[130%] font-500 text-gray-white">Matriculation (CBSE)</p>
+                            </div>
+                            <div class="text-[16px] leading-[130%] mr-0 sm:mr-[60px] font-500 sm:ml-[20px] mt-[30px] sm:mt-0 text-gray-white">• 2005-2006</div>
+                            <div class="absolute h-[1px] bg-gray-extraWhite w-full bottom-0 overflow-hidden">
+                                <div class="absoulte w-full h-full bg-white duration-500 translate-x-[-110%] group-hover:translate-x-[0]"></div>
+                            </div>
+                            <div class="absolute w-[25px] h-[25px] right-0 top-[0] duration-200 group-hover:translate-x-[5px] group-hover:translate-y-[-5px]">
+                                <img src="assets/images/link.svg" alt="icon" />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="w-full md:max-w-[85%] lg:max-w-none">
+                        <h3 class="animate-up-y text-[30px] md:text-[36px] leading-[100%] font-900 text-white mb-[50px] md:mb-[80px]">💼 &nbsp; Work Experience</h3>
+                        <a href="https://www.upwork.com/freelancers/~0143a0c5d20ff82daa" target="_blank" class="animate-up-y relative mb-[35px] pb-[40px] flex flex-col sm:flex-row sm:items-end justify-between group">
+                            <div>
+                                <h5 class="mb-[8px] font-700 text-[21px] md:text-[24px] text-white leading-[110%]">Freelancer</h5>
+                                <p class="text-[16px] leading-[130%] font-500 text-gray-white">Front End Developer</p>
+                            </div>
+                            <div class="text-[16px] leading-[130%] mr-0 sm:mr-[60px] font-500 sm:ml-[20px] mt-[30px] sm:mt-0 text-gray-white">• May 2021 - Current</div>
+                            <div class="absolute h-[1px] bg-gray-extraWhite w-full bottom-0 overflow-hidden">
+                                <div class="absoulte w-full h-full bg-white duration-500 translate-x-[-110%] group-hover:translate-x-[0]"></div>
+                            </div>
+                            <div class="absolute w-[25px] h-[25px] right-0 top-[0] duration-200 group-hover:translate-x-[5px] group-hover:translate-y-[-5px]">
+                                <img src="assets/images/link.svg" alt="icon" />
+                            </div>
+                        </a>
+                        <a href="https://iapptechnologies.com/" target="_blank" class="animate-up-y relative mb-[35px] pb-[40px] flex flex-col sm:flex-row sm:items-end justify-between group">
+                            <div>
+                                <h5 class="mb-[8px] font-700 text-[21px] md:text-[24px] text-white leading-[110%]">iApp Technologies</h5>
+                                <p class="text-[16px] leading-[130%] font-500 text-gray-white">Senior Web Designer</p>
+                            </div>
+                            <div class="text-[16px] leading-[130%] mr-0 sm:mr-[60px] font-500 sm:ml-[20px] mt-[30px] sm:mt-0 text-gray-white">• 2015-2021</div>
+                            <div class="absolute h-[1px] bg-gray-extraWhite w-full bottom-0 overflow-hidden">
+                                <div class="absoulte w-full h-full bg-white duration-500 translate-x-[-110%] group-hover:translate-x-[0]"></div>
+                            </div>
+                            <div class="absolute w-[25px] h-[25px] right-0 top-[0] duration-200 group-hover:translate-x-[5px] group-hover:translate-y-[-5px]">
+                                <img src="assets/images/link.svg" alt="icon" />
+                            </div>
+                        </a>
+                        <a href="javascript:;" class="animate-up-y relative mb-[35px] pb-[40px] flex flex-col sm:flex-row sm:items-end justify-between group">
+                            <div>
+                                <h5 class="mb-[8px] font-700 text-[21px] md:text-[24px] text-white leading-[110%]">Freelancer</h5>
+                                <p class="text-[16px] leading-[130%] font-500 text-gray-white">Web Designer</p>
+                            </div>
+                            <div class="text-[16px] leading-[130%] mr-0 sm:mr-[60px] font-500 sm:ml-[20px] mt-[30px] sm:mt-0 text-gray-white">• 2013-2015</div>
+                            <div class="absolute h-[1px] bg-gray-extraWhite w-full bottom-0 overflow-hidden">
+                                <div class="absoulte w-full h-full bg-white duration-500 translate-x-[-110%] group-hover:translate-x-[0]"></div>
+                            </div>
+                            <div class="absolute w-[25px] h-[25px] right-0 top-[0] duration-200 group-hover:translate-x-[5px] group-hover:translate-y-[-5px]">
+                                <img src="assets/images/link.svg" alt="icon" />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-[40px] sm:py-[60px] lg:py-[80px] ">
+        <div class="container overflow-hidden">
+            <div class="animate-up-y">
+                <h6 class="inline-block clip-text text-[22px] font-900 uppercase tracking-wide4 ">Testimonials</h6>
+            </div>
+            <h3 class="animate-up-y font-900 mt-[20px] text-[36px] sm:text-[40px] md:text-[54px] leading-[110%]">Word on the street</h3>
+            <div id="testimonials" class="animate-up-y mt-[65px] relative">
+                <div class="swiper-wrapper ">
+                    <!-- Slides -->
+                    <div class="swiper-slide w-full flex items-end bg-white  duration-500  opacity-0">
+                        <div class="flex justify-between items-center lg:items-end flex-col lg:flex-row">
+                            <div class="relative sm:w-[90%] md:w-[70%] lg:w-[48%] h-[320px] sm:h-[450px] max-w-[485px] w-full overflow-hidden">
+                                <img class="w-full h-full object-cover" src="./assets/images/feedback/pinaki.png" alt="image" height="450">
+                                <div class="animated absolute duration-500 delay-500 inset-0 origin-left scale-x-100  w-full h-full bg-white z-10"></div>
+                            </div>
+                            <div class="md:w-[85%] lg:w-[48%] mt-[20px] sm:mt-[50px] lg:mt-0">
+                                <div class="sm:w-[45px] w-[35px] sm:h-[45px] mb-[20px] sm:mb-[33px]">
+                                    <img class="object-cover" src="./assets/images/qoute.svg" alt="qoute" />
+                                </div>
+                                <h3 class="font-900 leading-[130%] text-[27px] sm:text-[30px] md:text-[36px]">A thorough professional, timely delivery, and quality impressed us. Will hire him again. Highly recommend.</h3>
+                                <div class="mt-[50px] lg:mt-[115px]">
+                                    <div class="block text-[19px] sm:text-[20px] leading-[100%] mb-[8px] font-700">Pinaki Bhatacharyya</div>
+                                    <div class="block text-[14px] sm:text-[16px] md:text-[18px] leading-[100%] font-400">Upwork Client</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide w-full flex items-end bg-white duration-500  opacity-0">
+                        <div class="flex justify-between items-center lg:items-end flex-col lg:flex-row">
+                            <div class="relative sm:w-[90%] md:w-[70%] lg:w-[48%] h-[320px] sm:h-[450px] max-w-[485px] w-full overflow-hidden">
+                                <img class="w-full h-full object-cover" src="./assets/images/feedback/sachin.png" alt="image" height="450">
+                                <div class="animated absolute duration-500 delay-500 inset-0 origin-left scale-x-100 w-full h-full bg-white z-10"></div>
+                            </div>
+                            <div class="md:w-[85%] lg:w-[48%] mt-[20px] sm:mt-[50px] lg:mt-0">
+                                <div class="sm:w-[45px] w-[35px] sm:h-[45px] mb-[20px] sm:mb-[33px]">
+                                    <img class="object-cover" src="./assets/images/qoute.svg" alt="qoute" />
+                                </div>
+                                <h3 class="font-900 leading-[130%] text-[27px] sm:text-[30px] md:text-[36px]">Someone i can blindly trust on for my work requirements. He delivers fast and understands quickly what the concern is, and communication is.</h3>
+                                <div class="mt-[50px] lg:mt-[115px]">
+                                    <div class="block text-[19px] sm:text-[20px] leading-[100%] mb-[8px] font-700">Sachin Arora</div>
+                                    <div class="block text-[14px] sm:text-[16px] md:text-[18px] leading-[100%] font-400">Upwork Client</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide w-full flex items-end bg-white duration-500  opacity-0">
+                        <div class="flex justify-between items-center lg:items-end flex-col lg:flex-row">
+                            <div class="relative sm:w-[90%] md:w-[70%] lg:w-[48%] h-[320px] sm:h-[450px] max-w-[485px] w-full overflow-hidden">
+                                <img class="w-full h-full object-cover " src="./assets/images/feedback/edwin.png" alt="image" height="450">
+                                <div class="animated absolute duration-500 delay-500 inset-0 origin-left scale-x-100 w-full h-full bg-white z-10"></div>
+                            </div>
+                            <div class="md:w-[85%] lg:w-[48%] mt-[20px] sm:mt-[50px] lg:mt-0">
+                                <div class="sm:w-[45px] w-[35px] sm:h-[45px] mb-[20px] sm:mb-[33px]">
+                                    <img class="object-cover" src="./assets/images/qoute.svg" alt="qoute" />
+                                </div>
+                                <h3 class="font-900 leading-[130%] text-[27px] sm:text-[30px] md:text-[36px]">Gursewak was extremely fast, accurate and went an extra mile to to build graphical elements in css instead of using images.</h3>
+                                <div class="mt-[50px] lg:mt-[115px]">
+                                    <div class="block text-[19px] sm:text-[20px] leading-[100%] mb-[8px] font-700">Hauke Brinkmann</div>
+                                    <div class="block text-[14px] sm:text-[16px] md:text-[18px] leading-[100%] font-400">Upwork Client</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev left-auto w-[54px] h-[54px] bg-black text-white top-auto right-[74px] bottom-0 flex items-center justify-center after:hidden">
+                    <img src="assets/images/left_arrow_white.svg" alt="left" />
+                </div>
+                <div class="swiper-button-next w-[54px] h-[54px] bg-black text-white top-auto bottom-0 flex items-center justify-center after:hidden">
+                    <img src="assets/images/right_arrow_white.svg" alt="right" />
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="bg-black pt-24 pb-32 mt-9 sm:mt-14 lg:mt-20">
+        <div class="container">
+            <h2 class="animate-up-y text-4xl sm:text-4xl md:text-54 md:leading-none font-900 text-white">Ready to make something kickass?</h2>
+            <div class="animate-up-y mt-3 block">
+                <a class="inline-block group" href="contact.html">
+                    <span class="clip-text text-4xl sm:text-4xl md:text-54 md:leading-none font-900">Let's work together.</span>
+                    <div class="rounded h-1 w-100 bg-gradient-to-r from-violet via-red to-yellow origin-left scale-x-0 duration-700 ease-in-out group-hover:scale-x-100"></div>
+                </a>
+            </div>
+
+            <div class="animate-up-y flex justify-between mt-14 lg:mt-20 flex-col lg:flex-row">
+                <div class="w-full max-w-none lg:w-5/12 lg:max-w-sm">
+                    <div class="block mb-4">
+                        <a href="index.html" class="text-white text-3xl tracking-tight font-900">Gursewak S<span class="text-red">.</span></a>
+                    </div>
+                    <p class="text-gray-light text-base font-500"> Kaulseri, Dhuri, Dist-Sangrur(Punjab), India</p>
+                    <a class="flex mt-6 group" href="mailto:sohi.gursewak@gmail.com">
+                        <div class="w-7 h-5 mr-1.5">
+                            <img src="assets/images/mail.svg" alt="icon" />
+                        </div>
+                        <div class="text-gray-light text-base font-900 duration-200 transition group-hover:opacity-75">sohi.gursewak@gmail.com</div>
+                    </a>
+                </div>
+                <div class="grid grid-cols-2 sm:grid-cols-3 gap-x-8 gap-y-6 sm:gap-x-24 sm:gap-y-7 mt-14 lg:mt-0">
+                    <a class="group inline" href="#services">
+                        <span class="text-white font-500 text-base md:text-lg">Services</span>
+                        <div class="h-[1px] w-100 origin-left bg-white scale-x-0 duration-500 ease-in-out group-hover:scale-x-50"></div>
+                    </a>
+                    <a class="group" href="contact.html">
+                        <span class="text-white font-500 text-base md:text-lg">Contact</span>
+                        <div class="h-[1px] w-100 origin-left bg-white scale-x-0 duration-500 ease-in-out group-hover:scale-x-50"></div>
+                    </a>
+                    <a class="group" href="#experience">
+                        <span class="text-white font-500 text-base md:text-lg">Experience</span>
+                        <div class="h-[1px] w-100 origin-left bg-white scale-x-0 duration-500 ease-in-out group-hover:scale-x-50"></div>
+                    </a>
+                    <a class="group" href="#experience">
+                        <span class="text-white font-500 text-base md:text-lg">Education</span>
+                        <div class="h-[1px] w-100 origin-left bg-white scale-x-0 duration-500 ease-in-out group-hover:scale-x-50"></div>
+                    </a>
+                    <a class="group" href="#portfolio">
+                        <span class="text-white font-500 text-base md:text-lg">Projects</span>
+                        <div class="h-[1px] w-100 origin-left bg-white scale-x-0 duration-500 ease-in-out group-hover:scale-x-50"></div>
+                    </a>
+                    <a class="group" href="#testimonials">
+                        <span class="text-white font-500 text-base md:text-lg">Testimonials</span>
+                        <div class="h-[1px] w-100 origin-left bg-white scale-x-0 duration-500 ease-in-out group-hover:scale-x-50"></div>
+                    </a>
+                   
+                    <a class="group" href="assets/images/resume/resume.pdf" target="_blank">
+                        <span class="text-white font-500 text-base md:text-lg">Resume</span>
+                        <div class="h-[1px] w-100 origin-left bg-white scale-x-0 duration-500 ease-in-out group-hover:scale-x-50"></div>
+                    </a>
+                    <a class="group" href="https://dribbble.com/Kauls_Solitude" target="_blank">
+                        <span class="text-white font-500 text-base md:text-lg">Dribbble</span>
+                        <div class="h-[1px] w-100 origin-left bg-white scale-x-0 duration-500 ease-in-out group-hover:scale-x-50"></div>
+                    </a>
+ 
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Go to top -->
+    <a id="goToTop" href="#" class="opacity-0 invisible scale-0 duration-200 w-12 h-12 bg-white flex items-center justify-center fixed right-7 bottom-7 z-50 mix-blend-difference">
+        <img src="assets/images/up.svg" alt="icon"/>
+    </a>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
