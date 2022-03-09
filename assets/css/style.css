@@ -2236,12 +2236,12 @@ html {
     margin-bottom: 80px;
   }
 
-  .md\:mr-\[20px\] {
-    margin-right: 20px;
-  }
-
   .md\:mb-0 {
     margin-bottom: 0px;
+  }
+
+  .md\:mr-\[20px\] {
+    margin-right: 20px;
   }
 
   .md\:h-\[50px\] {

@@ -1,10 +1,8 @@
  
 
 
-$(function() {
-    $("body").removeClass("opacity-0");
-
-
+const windowLoaded = () => {  
+ 
     // scroll to top button
     if ($("#goToTop").length > 0) {
         $(window).scroll(function() {    
@@ -68,6 +66,7 @@ $(function() {
     }
    
 
+    
     // gsap animations
     gsap.registerPlugin(ScrollTrigger);
     ScrollTrigger.defaults({
@@ -147,7 +146,7 @@ $(function() {
         zoomTl.fromTo(".animate-zoomout", {scale: 1.6 }, {scale: 1, duration: 1.5,  ease: "power2.out"});
     }
 
-});
+}
 
 
 
