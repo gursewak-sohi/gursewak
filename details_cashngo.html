@@ -84,22 +84,21 @@
         }
 
     </style>
-    <!-- Page loading scripts-->
-    <script>
-        (function() {
-            window.onload = () => {
-                var preloader = document.querySelector('.page-loading');
-                setTimeout(() => {
-                    console.log("loader removed");
-                    preloader.classList.remove('active'); 
-                    windowLoaded();   
-                }, 4000);
-                setTimeout(() => {
-                        preloader.remove();
-                }, 6000);
-            };
-        })();
-    </script>
+   <!-- Page loading scripts-->
+   <script>
+    (function() {
+        document.addEventListener("DOMContentLoaded", function(){
+            var preloader = document.querySelector('.page-loading');
+            setTimeout(() => {
+                preloader.classList.remove('active'); 
+                myscript();   
+            }, 4000);
+            setTimeout(() => {
+                    preloader.remove();
+            }, 6000);
+        });
+    })();
+</script>
 </head>
 
 <body class="font-400 text-black tracking-tight overflow-x-hidden bg-white">

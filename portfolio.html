@@ -88,17 +88,16 @@
         <!-- Page loading scripts-->
         <script>
             (function() {
-                window.onload = () => {
+                document.addEventListener("DOMContentLoaded", function(){
                     var preloader = document.querySelector('.page-loading');
                     setTimeout(() => {
-                        console.log("loader removed");
                         preloader.classList.remove('active'); 
-                        windowLoaded();   
+                        myscript();   
                     }, 4000);
                     setTimeout(() => {
                             preloader.remove();
                     }, 6000);
-                };
+                });
             })();
         </script>
 </head>
