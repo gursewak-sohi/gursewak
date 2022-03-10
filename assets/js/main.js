@@ -1,7 +1,7 @@
  
 
 
-const windowLoaded = () => {  
+const myscript = () => {  
  
     // scroll to top button
     if ($("#goToTop").length > 0) {
